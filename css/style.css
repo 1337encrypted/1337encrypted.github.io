@@ -47,7 +47,7 @@ header {
   display: block;
   width: 100%;
   height: 100px;
-  background-image: url(../images/bg_header.png);
+  background-image: url(images/bg_header.png);
   background-repeat: repeat-x;
   background-color: #00002d;
   text-align: center; 
@@ -69,12 +69,12 @@ header #logo {
 nav {
   position: absolute;
   top: 100px;
-  left: 0; */
+  left: 0;
   display: block;
   width: 100%;
   height: 74px;
   padding-top: 1px;
-  background-image: url(../images/bg_nav.png);
+  background-image: url(images/bg_nav.png);
   background-repeat: repeat-x;
   background-color: #b5978b;
   text-align: center; 
@@ -87,8 +87,8 @@ nav ul {
   padding: 0;
   padding-top: 0px;
   text-transform: lowercase;
-  /* font-family: "Gill Sans", "Gill Sans MT", Candara, sans-serif; */
-  font-family: 'Avenir next';
+  font-family: "Gill Sans", "Gill Sans MT", Candara, sans-serif;
+  /* font-family: 'Avenir next'; */
   font-size: 20px;
   }
 
@@ -107,7 +107,7 @@ nav a:link, nav a:visited {
 nav a:link.current, nav a:visited.current {
   /* background-color: #a08178;  */
   background-color: #89809F;
-  border: none;
+  /* border: none; */
 }
 
 nav a:link:hover, nav a:visited:hover {
@@ -134,7 +134,7 @@ footer {
   width: 100%;
   height: 75px;
   background-color: #000000;
-  background-image: url(../images/bg_footer.png);
+  background-image: url(images/bg_footer.png);
   background-repeat: repeat-x;
   color: #aaaaaa;
   font-size: 9px;
@@ -164,13 +164,13 @@ footer a:link:hover, footer a:visited:hover {
 
 @font-face {
   font-family: Tinos;
-  src: url(../fonts/Tinos/Tinos_Bold_for_Powerline.ttf);
+  src: url(fonts/Tinos/Tinos_Bold_for_Powerline.ttf);
 
   font-family: 'Avenir next';
-  src: url(../fonts/Metropolis/Metropolis-Regular.otf);
+  src: url(fonts/Metropolis/Metropolis-Regular.otf);
 
   font-family: Avenir;
-  src: url(../fonts/Metropolis/Metropolis-SemiBold.otf);
+  src: url(fonts/Metropolis/Metropolis-SemiBold.otf);
 }
 
 @media (max-width: 760px) {
