@@ -1,7 +1,7 @@
 article.resume {
   background-color: #EDEADE;
   color: black;
-  padding: 2em 5em;
+  padding: 3em 5em 5em;
   margin-bottom: 2em;
 }
 
@@ -9,6 +9,10 @@ article.resume hr {
   border-top: 1px solid black;
 }
  
+article.resume a{
+  color: #004D80;
+}
+
 article.resume strong {
   color: black;
   font-weight: 600;
@@ -16,7 +20,7 @@ article.resume strong {
  
 article.resume .title {
   font-family: Tinos;
-  font-size: 25pt;
+  font-size: 4rem;
   text-align: center;
   font-weight: 600;
   letter-spacing: 0.25em;
@@ -26,26 +30,17 @@ article.resume .title {
 article.resume .body {
   font-family: 'Avenir next'; 
   font-size: 11pt;
-  letter-spacing: 1pt;
+  letter-spacing: 0.1em;
   text-align: justify;
   list-style: none;
 }
 
-article.resume .body-date {
-  font-family: 'Avenir next'; 
-  font-size: 11pt;
-  letter-spacing: 1pt;
-  text-align: justify;
-  list-style: none;
+article.resume .date {
   font-variant: small-caps;
   float: right;
 }
 
 article.resume .body-small-caps {
-  font-family: 'Avenir next'; 
-  font-size: 11pt;
-  letter-spacing: 1pt;
-  text-align: justify;
   font-variant: small-caps;
 }
 
@@ -64,15 +59,6 @@ article.resume .heading2 {
   color: #004D80;
 }
 
-article.resume .heading2-date {
-  font-family: 'Avenir';
-  font-size: 11pt;
-  letter-spacing: 0.2em;
-  font-weight: 600;
-  color: #004D80;
-  float: right;
-}
-
 article.resume .contact-info {
   font-family: 'Courier New', Courier, monospace;
   font-size: 12pt;
@@ -80,8 +66,54 @@ article.resume .contact-info {
   margin: 0.75em auto;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 760px) {
+
   article.resume {
-    padding: 0.75em; 
+    /* padding: 0.75em; */
+    padding: 2rem 3rem 3em;
+    margin-bottom: 2em;
   } 
+  
+  article.resume hr {
+    border-top: 0.5px solid black;
+  }
+   
+  article.resume a{
+    color: #004D80;
+  }
+  
+  article.resume strong {
+    color: black;
+    font-weight: 600;
+  }
+
+  article.resume .title {
+    font-size: 2rem;
+    /* margin: 1em 0.25em auto; */
+  }
+  
+  article.resume .body {
+    font-size: 8pt;
+    letter-spacing: 0.1em;
+  }
+
+  article.resume a{
+    font-size: 0.9rem;
+  }
+  
+  article.resume .heading1 {
+    font-size: 8pt;
+  }
+  
+  article.resume .heading2 {
+    font-size: 8pt;
+  }
+  
+  article.resume .contact-info {
+    font-size: 7pt;
+  }
+
+  article.resume .date{
+    visibility: hidden;
+  }
 }
