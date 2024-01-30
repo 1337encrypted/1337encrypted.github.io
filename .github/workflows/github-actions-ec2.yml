@@ -30,6 +30,8 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            sudo rm -rf /var/www/html/Vort3x-Website/portfolio-website
-            sudo mv home/portfolio-website /var/www/html/Vort3x-Website/
+            sudo rm -rf /var/www/Vort3x-Website/portfolio-website/
+            sudo mv /home/admin/portfolio-website /var/www/Vort3x-Website/.
             sudo nginx -s reload
+            rm -rf 
+
