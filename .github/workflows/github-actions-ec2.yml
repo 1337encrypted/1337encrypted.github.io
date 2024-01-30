@@ -33,5 +33,4 @@ jobs:
             sudo rm -rf /var/www/Vort3x-Website/portfolio-website/
             sudo mv /home/admin/portfolio-website /var/www/Vort3x-Website/.
             sudo nginx -s reload
-            rm -rf 
 
