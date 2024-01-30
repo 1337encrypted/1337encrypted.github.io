@@ -47,7 +47,7 @@ header {
   display: block;
   width: 100%;
   height: 100px;
-  background-image: url(/images/bg_header.png);
+  background-image: url(../images/bg_header.png);
   background-repeat: repeat-x;
   background-color: #00002d;
   text-align: center; 
@@ -74,7 +74,7 @@ nav {
   width: 100%;
   height: 74px;
   padding-top: 1px;
-  background-image: url(/images/bg_nav.png);
+  background-image: url(../images/bg_nav.png);
   background-repeat: repeat-x;
   background-color: #b5978b;
   text-align: center; 
@@ -134,7 +134,7 @@ footer {
   width: 100%;
   height: 75px;
   background-color: #000000;
-  background-image: url(/images/bg_footer.png);
+  background-image: url(../images/bg_footer.png);
   background-repeat: repeat-x;
   color: #aaaaaa;
   font-size: 9px;
